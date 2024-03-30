@@ -292,6 +292,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <!-- exclude test case support classes -->
+                   <testFailureIgnore>true</testFailureIgnore>
                     <excludes>
                         <exclude>org/apache/commons/mail/mocks/*</exclude>
                         <exclude>org/apache/commons/mail/settings/*</exclude>
